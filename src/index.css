@@ -1,0 +1,92 @@
+.outer-box {
+  width: 8em;
+  height: 8em;
+  text-align: center;
+  font-family: Troika;
+  letter-spacing: 1px;
+  cursor: pointer;
+  margin: 0.1em;
+  line-height: 8em;
+  border: none;
+  background: none;
+  padding: 0px;
+}
+
+.box {
+  border-radius: 1em;
+}
+
+.inner-box {
+  width: 100%;
+  font-size: 20px;
+}
+
+.unknown {
+  color: white;
+  background-color: lightgray;
+  border-radius: 1em;
+  height: 100%;
+}
+
+main {
+  display: flex;
+}
+
+.to-center {
+  margin: 0px auto;
+}
+
+.box-container {
+  display: grid;
+  grid-template-columns: 7.5em 7.5em 7.5em 7.5em 7.5em 7.5em;
+  grid-template-rows: 7.5em 7.5em 7.5em 7.5em 7.5em 7.5em;
+  align-items: center;
+    justify-items: center;
+}
+
+#new-game-button {
+  margin-left: 0.6em;
+  background-color: #0000ff;
+  color: #00ff00;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+#steps-label {
+  font-weight: bold;
+  float: right;
+  padding-top: 3px;
+  padding-right: 0.6em;
+}
+
+@font-face {
+	font-family: Troika;
+	src: url("assets/troika.otf") format("opentype");
+}
+
+#bigwin {
+  color: yellow;
+  text-align: center;
+}
+
+#bigwin-content {
+  align-items: center;
+  display: flex;
+}
+
+.info {
+  color: white;
+  padding-left: 10px;
+}
+
+body {
+  padding: 0px;
+  background-color: #222;
+}
+
+main {
+  margin-top: 5vh;
+}
